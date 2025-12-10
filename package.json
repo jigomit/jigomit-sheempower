@@ -1,0 +1,10 @@
+{
+  "name": "women-empowerment-foundation",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix empowerment-site run dev",
+    "build": "npm --prefix empowerment-site run build",
+    "preview": "npm --prefix empowerment-site run preview"
+  }
+}

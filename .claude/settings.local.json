@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Read(//Users/mac2/Downloads/Brown Leaf Women Beauty Salon and Spa Logo/**)",
+      "Bash(npm run dev)",
+      "Read(//Users/mac2/Downloads/**)",
+      "Read(//Users/mac2/**)",
+      "Bash(npm install)",
+      "WebFetch(domain:www.pexels.com)",
+      "Bash(npm run build)",
+      "Bash(timeout 5 npm run dev:*)",
+      "Bash(open http://localhost:5175/)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
