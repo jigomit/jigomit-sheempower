@@ -7,6 +7,7 @@ import StoriesView from './views/StoriesView.vue'
 import GetInvolvedView from './views/GetInvolvedView.vue'
 import BlogView from './views/BlogView.vue'
 import BlogPostView from './views/BlogPostView.vue'
+import NotFoundView from './views/NotFoundView.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -225,6 +226,15 @@ const router = createRouter({
           'women safety education and training'
         ],
         image: '/sheempower-logo.png'
+      }
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: NotFoundView,
+      meta: {
+        title: '404 - Page Not Found | SheEmpower Global',
+        description: 'The page you are looking for does not exist.',
       }
     },
   ],
