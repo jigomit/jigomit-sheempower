@@ -1,6 +1,7 @@
 [build]
+  base = "empowerment-site"
   command = "npm run build"
-  publish = "dist"
+  publish = "empowerment-site/dist"
 
 [[redirects]]
   from = "/*"
